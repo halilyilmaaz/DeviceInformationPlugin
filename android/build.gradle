@@ -22,8 +22,12 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
-
+    namespace = 'co.creativemind.device_information'
+    compileSdkVersion 30
+    targetSdkVersion 30
+    versionCode 1
+    versionName "1.0"
+    ß
     defaultConfig {
         minSdkVersion 16
     }
